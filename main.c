@@ -1,11 +1,15 @@
 #include <stdio.h>
-#include "multiply.h"
+#define "MULTIPLY.H"
 
 int main(){
+int n = MULTIPLY(2, 4)
+printf("%d\n", n);
+printf("Date : %s\n", __DATE__);
+printf("Time : %s\n", __TIME__);
+printf("Line : %d\n", __LINE__);
+printf("File : %s\n", __FILE__);
+printf("STDC / ANSI %d\n", __STDC__);
 
-int result = MULTIPLY(20, 5);
-
-printf("The result of multiply is : %d\n", result);
 
 return 0;
 
